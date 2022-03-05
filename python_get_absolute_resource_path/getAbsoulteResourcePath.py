@@ -1,5 +1,6 @@
 import os
 import inspect
+import posixpath
 
 
 def get_absolute_resource_path(res: str):
@@ -12,4 +13,4 @@ def get_absolute_resource_path(res: str):
         else:
             ico_frame_idx = i
     caller_path = os.path.dirname(stack_lst[ico_frame_idx].filename)
-    return os.path.join(caller_path, res).replace('\\', '/')
+    return os.path.join(caller_path, res).replace(os.path.sep, posixpath.sep)
