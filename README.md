@@ -7,7 +7,9 @@ Get absolute resource path of exterior package
 ## Description
 There is only one method. ```get_absolute_resource_path(res: str) -> str```.
 
-This package find the module in the stack which includes relative resource path like 'ico/sample.png'. You can get the absolute path like C:/.../sample_exists_directory/ico/sample.png
+This package find the module in the stack which includes relative resource path like 'ico/sample.png'. 
+
+You can get the absolute path like 'C:/.../sample_exists_directory/ico/sample.png'.
 
 ### Example
 ```python
