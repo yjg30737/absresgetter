@@ -2,7 +2,7 @@
 Get absolute resource path of exterior package
 
 ## Setup
-```pip3 install git+https://github.com/yjg30737/python-get-absolute-resource-path.git --upgrade```
+`python -m pip install python-get-absolute-resource-path`
 
 ## Description
 There is only one method. ```get_absolute_resource_path(res: str) -> str```.
