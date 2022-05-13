@@ -13,5 +13,7 @@ You can get the absolute path like 'C:/.../sample_exists_directory/ico/sample.pn
 
 ### Example
 ```python
-print(getabsres('ico/dark-notepad.svg')) # C:/.../ico_dark_notepad_exists_directory/ico/dark-notepad.svg
+import absresgetter
+...
+print(absresgetter.getabsres('ico/dark-notepad.svg')) # C:/.../ico_dark_notepad_exists_directory/ico/dark-notepad.svg
 ```
