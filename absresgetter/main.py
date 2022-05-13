@@ -3,7 +3,7 @@ import inspect
 import posixpath
 
 
-def get_absolute_resource_path(res: str):
+def getabsres(res: str):
     stack_lst = inspect.stack()
     res_frame_idx = 0
     for i in range(len(stack_lst)):

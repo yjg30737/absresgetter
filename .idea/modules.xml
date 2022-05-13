@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/python_get_absolute_resource_path.iml" filepath="$PROJECT_DIR$/.idea/python_get_absolute_resource_path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/absresgetter.iml" filepath="$PROJECT_DIR$/.idea/absresgetter.iml" />
     </modules>
   </component>
 </project>

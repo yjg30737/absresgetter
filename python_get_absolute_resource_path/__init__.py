@@ -1,1 +1,0 @@
-from .getAbsoulteResourcePath import get_absolute_resource_path
