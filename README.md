@@ -17,3 +17,8 @@ import absresgetter
 ...
 print(absresgetter.getabsres('ico/dark-notepad.svg')) # C:/.../ico_dark_notepad_exists_directory/ico/dark-notepad.svg
 ```
+
+## Gibberish
+I hope this kind of feature is inlcuded in official libarary.
+
+I really don't want to be bothered with.
